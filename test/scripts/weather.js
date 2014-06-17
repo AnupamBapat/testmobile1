@@ -14,7 +14,7 @@
 
             //When you build for Apache Cordova 3.0.0, apply this code instead of using relative URLs. In Apache Cordova 3.0.0, relative URLs might not work properly.
             //jsonUrlToLoad = app.makeUrlAbsolute("data/weather.json");
-            jsonUrlToLoad = "http://betamike.cognizant.com/api/Recruit/DriveDetails";
+            jsonUrlToLoad = "https://betamike.cognizant.com/api/Recruit/DriveDetails";
 
             dataSource = new kendo.data.DataSource({
                 transport: {
