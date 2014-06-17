@@ -34,6 +34,7 @@
             development platform by combining the convenience of a local development toolset with the
             power and flexibility of the cloud.
         </p>
+        
         <div class="welcome-image"></div>
     </div>
 
@@ -98,21 +99,19 @@
         data-title="Weather"
         data-model="app.weatherService.viewModel">
 
-        <ul data-role="listview" data-style="inset"
+        <ul data-role="listview"
             data-bind="source: weatherDataSource"
             data-template="weather-forecast-template">
         </ul>
     </div>
-
+    <div id="grid">
+               </div>
     <!--Weather forecast template-->
-    <script id="weather-forecast-template" type="text/x-kendo-tmpl">
+    <script id="weather-forecast-template" type="text/x-kendo-template">
         <div class="w-item-template">
-            <span class="w-icon ${image}"></span>
-            <h4 class="w-date">${day}</h4>
-            <div class="w-temp">
-                <span>${highTemperature}<sup>&deg;</sup></span>
-                <span>${lowTemperature}<sup>&deg;</sup></span>
-            </div>
+           
+            <h4>#= CandidateName #</h4>
+            
         </div>
     </script>
 
